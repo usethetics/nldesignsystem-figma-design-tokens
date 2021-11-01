@@ -1,0 +1,3958 @@
+{
+  "utrecht": {
+    "utrecht": {
+      "typography": {
+        "fontFamilies": {
+          "sans-serif": {
+            "value": "Lucida Grande",
+            "type": "fontFamilies"
+          }
+        },
+        "fontSizes": {
+          "font-size-2xs": {
+            "value": "8",
+            "type": "fontSizes"
+          },
+          "font-size-xs": {
+            "value": "11",
+            "type": "fontSizes"
+          },
+          "font-size-sm": {
+            "value": "14",
+            "type": "fontSizes"
+          },
+          "font-size-md": {
+            "value": "16",
+            "type": "fontSizes"
+          },
+          "font-size-lg": {
+            "value": "18",
+            "type": "fontSizes"
+          },
+          "font-size-xl": {
+            "value": "20",
+            "type": "fontSizes"
+          },
+          "font-size-2xl": {
+            "value": "22",
+            "type": "fontSizes"
+          },
+          "font-size-3xl": {
+            "value": "24",
+            "type": "fontSizes"
+          },
+          "font-size-4xl": {
+            "value": "32",
+            "type": "fontSizes"
+          }
+        },
+        "fontWeights": {
+          "font-weight-regular": {
+            "value": "Regular",
+            "type": "fontWeights"
+          },
+          "font-weight-bold": {
+            "value": "Bold",
+            "type": "fontWeights"
+          }
+        }
+      },
+      "letterSpacings": {
+        "letterSpacing-size-sm": {
+          "value": "0.72px",
+          "description": "letterspacing van 0,72px",
+          "type": "letterSpacing"
+        },
+        "letterSpacing-size-md": {
+          "value": "0px",
+          "description": "letterspacing 0px",
+          "type": "letterSpacing"
+        },
+        "letterSpacing-size-lg": {
+          "value": "2px",
+          "description": "letterspacing van 2px",
+          "type": "letterSpacing"
+        }
+      },
+      "lineHeights": {
+        "linehight-size-tighter": {
+          "value": "100%",
+          "description": "linehHeight factor 1 / 100% ",
+          "type": "lineHeights"
+        },
+        "lineHeights": {
+          "lineheight-size-tight": {
+            "value": "130%",
+            "description": "lineheight factor 1,3 / 130% ",
+            "type": "lineHeights"
+          },
+          "lineheight-size-normal": {
+            "value": "140%",
+            "description": "lineheight factor 1,4 / 140% ",
+            "type": "lineHeights"
+          },
+          "lineheight-size-loose": {
+            "value": "150%",
+            "description": "lineheight factor 1,5 / 150% ",
+            "type": "lineHeights"
+          }
+        }
+      },
+      "color": {
+        "basis": {
+          "black": {
+            "value": "hsl(0, 0%, 0%)",
+            "description": "basis zwart",
+            "type": "color"
+          },
+          "white": {
+            "value": "hsl(0, 0%, 100%)",
+            "description": "basis wit",
+            "type": "color"
+          }
+        },
+        "red": {
+          "red-20": {
+            "value": "hsl(0, 100%, 20%)",
+            "description": "donker rood",
+            "type": "color"
+          },
+          "red-30": {
+            "value": "hsl(0, 100%, 30%)",
+            "description": "hover rood",
+            "type": "color"
+          },
+          "red-40": {
+            "value": "hsl(0, 100%, 40%)",
+            "description": "basis rood #cc0000",
+            "type": "color"
+          },
+          "red-95": {
+            "value": "hsl(0, 100%, 95%)",
+            "description": "Licht rood #ffcccc",
+            "type": "color"
+          }
+        },
+        "blue": {
+          "blue-20": {
+            "value": "hsl(211, 60%, 20%)",
+            "description": "basis donkerblauw (OS focus)",
+            "type": "color"
+          },
+          "blue-35": {
+            "value": "hsl(211, 60%, 35%)",
+            "description": "basis link en knoppen CTA donkerblauw",
+            "type": "color"
+          },
+          "blue-40": {
+            "value": "hsl(211, 60%, 40%)",
+            "description": "blauw variant bij hover/focus #3669a5",
+            "type": "color"
+          },
+          "blue-80": {
+            "value": "hsl(211, 60%, 80%)",
+            "description": "licht blauw voor achtergrond",
+            "type": "color"
+          },
+          "blue-90": {
+            "value": "hsl(211, 60%, 90%)",
+            "description": "ijsblauw variant achtergrond, spotlight en uitgelicht",
+            "type": "color"
+          }
+        },
+        "grey": {
+          "grey-10": {
+            "value": "hsl(0, 0%, 10%)",
+            "description": "Background donkergrijs",
+            "type": "color"
+          },
+          "grey-15": {
+            "value": "hsl(0, 0%, 15%)",
+            "description": "Background grijs",
+            "type": "color"
+          },
+          "grey-20": {
+            "value": "hsl(0, 0%, 20%)",
+            "description": "Hover grijs",
+            "type": "color"
+          },
+          "grey-30": {
+            "value": "hsl(0, 0%, 30%)",
+            "description": "order grijs #888",
+            "type": "color"
+          },
+          "grey-40": {
+            "value": "hsl(0, 0%, 40%)",
+            "description": "basis grijs #727272",
+            "type": "color"
+          },
+          "grey-80": {
+            "value": "hsl(0, 0%, 80%)",
+            "description": "grijs variant voor achtergrond content #e5e5e5",
+            "type": "color"
+          },
+          "grey-90": {
+            "value": "hsl(0, 0%, 90%)",
+            "description": "grijs variant voor achtergrond templates #e6e6e6",
+            "type": "color"
+          },
+          "grey-95": {
+            "value": "hsl(0, 0%, 95%)",
+            "description": "grijs variant voor achtergrond templates #f2f2f2",
+            "type": "color"
+          }
+        },
+        "yellow": {
+          "yellow-40": {
+            "value": "hsl(48, 100%, 40%)",
+            "description": "donker geel",
+            "type": "color"
+          },
+          "yellow-50": {
+            "value": "hsl(48, 100%, 50%)",
+            "description": "basis geel #ffcc00",
+            "type": "color"
+          },
+          "yellow-60": {
+            "value": "hsl(48, 100%, 60%)",
+            "description": "selecteer geel",
+            "type": "color"
+          },
+          "yellow-80": {
+            "value": "hsl(48, 100%, 80%)",
+            "description": "spotlight en uitgelicht",
+            "type": "color"
+          }
+        },
+        "green": {
+          "green-40": {
+            "value": "hsl(90, 30%, 40%)",
+            "description": "Donker groen",
+            "type": "color"
+          },
+          "green-50": {
+            "value": "hsl(90, 30%, 50%)",
+            "description": "Button groen",
+            "type": "color"
+          },
+          "green-80": {
+            "value": "hsl(90, 30%, 80%)",
+            "description": "Achtergrond groen",
+            "type": "color"
+          },
+          "green-90": {
+            "value": "hsl(90, 30%, 90%)",
+            "description": "Achtergrond groen",
+            "type": "color"
+          }
+        }
+      },
+      "common": {
+        "border-width": {
+          "border-width-none": {
+            "value": "0",
+            "type": "borderWidth"
+          },
+          "border-width-sm": {
+            "value": "1",
+            "type": "borderWidth"
+          },
+          "border-width-md": {
+            "value": "2",
+            "type": "borderWidth"
+          }
+        },
+        "border-radius": {
+          "border-radius-none": {
+            "value": "0",
+            "type": "borderRadius"
+          }
+        },
+        "focus": {
+          "box-shadow-color": {
+            "value": "$utrecht.color.basis.white",
+            "description": "Kleur achtergrond van de outline border",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "$utrecht.color.basis.black",
+            "description": "Kleur van de gestreepte lijn",
+            "type": "color"
+          },
+          "outline-width": {
+            "value": "$utrecht.common.border-width.border-width-md",
+            "type": "borderWidth"
+          }
+        },
+        "size": {
+          "block": {
+            "block-3xs": {
+              "value": "1",
+              "type": "sizing"
+            },
+            "block-2xs": {
+              "value": "2",
+              "type": "sizing"
+            },
+            "block-xs": {
+              "value": "4",
+              "type": "sizing"
+            },
+            "block-sm": {
+              "value": "8",
+              "type": "sizing"
+            },
+            "block-md": {
+              "value": "12",
+              "type": "sizing"
+            },
+            "block-lg": {
+              "value": "16",
+              "type": "sizing"
+            },
+            "block-xl": {
+              "value": "19",
+              "type": "sizing"
+            },
+            "block-2xl": {
+              "value": "24",
+              "type": "sizing"
+            },
+            "block-3xl": {
+              "value": "32",
+              "type": "sizing"
+            },
+            "block-4xl": {
+              "value": "48",
+              "type": "sizing"
+            },
+            "block-5xl": {
+              "value": "64",
+              "type": "sizing"
+            }
+          }
+        },
+        "space": {
+          "inline": {
+            "inline-2xs": {
+              "value": "4",
+              "type": "spacing"
+            },
+            "inline-xs": {
+              "value": "8",
+              "type": "spacing"
+            },
+            "inline-sm": {
+              "value": "12",
+              "type": "spacing"
+            },
+            "inline-md": {
+              "value": "16",
+              "type": "spacing"
+            },
+            "inline-lg": {
+              "value": "24",
+              "type": "spacing"
+            },
+            "inline-xl": {
+              "value": "28",
+              "type": "spacing"
+            },
+            "inline-2xl": {
+              "value": "32",
+              "type": "spacing"
+            },
+            "inline-3xl": {
+              "value": "48",
+              "type": "spacing"
+            }
+          },
+          "block": {
+            "block-2xs": {
+              "value": "4",
+              "type": "spacing"
+            },
+            "block-xs": {
+              "value": "8",
+              "type": "spacing"
+            },
+            "block-sm": {
+              "value": "12",
+              "type": "spacing"
+            },
+            "block-md": {
+              "value": "16",
+              "type": "spacing"
+            },
+            "block-lg": {
+              "value": "24",
+              "type": "spacing"
+            },
+            "block-xl": {
+              "value": "28",
+              "type": "spacing"
+            },
+            "block-2xl": {
+              "value": "32",
+              "type": "spacing"
+            },
+            "block-3xl": {
+              "value": "48",
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "button": {
+        "border-radius": {
+          "value": "$utrecht.common.border-radius.border-radius-none",
+          "type": "borderRadius"
+        },
+        "primary-action": {
+          "border-width": {
+            "value": "$utrecht.common.border-width.border-width-none",
+            "type": "borderWidth"
+          },
+          "background-color": {
+            "value": "$utrecht.color.blue.blue-35",
+            "description": "Achtergrondkleur primary button",
+            "type": "color"
+          },
+          "color": {
+            "value": "$utrecht.color.basis.white",
+            "description": "Tekst kleur",
+            "type": "color"
+          },
+          "disabled": {
+            "background-color": {
+              "value": "$colors.common.forms.disabled.color",
+              "description": "Tekst kleur",
+              "type": "color"
+            },
+            "color": {
+              "value": "$utrecht.color.basis.white",
+              "description": "Tekst kleur",
+              "type": "color"
+            }
+          }
+        },
+        "secondary-action": {
+          "border-width": {
+            "value": "$utrecht.common.border-width.border-width-md",
+            "type": "borderWidth"
+          },
+          "background-color": {
+            "value": "$utrecht.color.basis.white",
+            "description": "Achtergrondkleur secondary button",
+            "type": "color"
+          },
+          "color": {
+            "value": "$utrecht.color.blue.blue-35",
+            "description": "Tekst kleur secondary button",
+            "type": "color"
+          },
+          "disabled": {
+            "background-color": {
+              "value": "$utrecht.color.basis.white",
+              "description": "Tekst kleur",
+              "type": "color"
+            },
+            "color": {
+              "value": "$utrecht.form-input.disabled.color",
+              "description": "Tekst kleur",
+              "type": "color"
+            }
+          }
+        },
+        "link": {
+          "border-width": {
+            "value": "$utrecht.common.border-width.border-width-none",
+            "type": "borderWidth"
+          }
+        }
+      },
+      "document": {
+        "font-family": {
+          "value": "Lucida Grande",
+          "type": "fontFamilies"
+        }
+      },
+      "form-input": {
+        "default": {
+          "value": "$utrecht.color.basis.black",
+          "description": "Tekst invoer kleur",
+          "type": "color"
+        },
+        "disabled": {
+          "color": {
+            "value": "$utrecht.color.grey.grey-80",
+            "description": "Niet actieve grijze kleur",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "color": {
+            "value": "$utrecht.color.grey.grey-30",
+            "description": "Kleur randen van de formulier velden",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "color": {
+            "value": "$utrecht.color.blue.blue-35",
+            "description": "Kleur van hover staat van de formulier velden",
+            "type": "color"
+          }
+        },
+        "invalid": {
+          "color": {
+            "value": "$utrecht.color.red.red-30",
+            "description": "Feedback rode kleur",
+            "type": "color"
+          }
+        },
+        "border-radius": {
+          "value": "$utrecht.common.border-width.border-radius",
+          "type": "borderRadius"
+        },
+        "border-width": {
+          "value": "$utrecht.common.border-width.border-width-sm",
+          "type": "borderWidth"
+        }
+      }
+    },
+    "form-input": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-regular",
+          "lineHeight": "$utrecht.lineHeights.lineHeights.lineheight-size-loose",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-md",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-md",
+          "paragraphSpacing": "0"
+        },
+        "description": "Tekstinvoer van formulierelementen"
+      }
+    },
+    "form-placeholder": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-regular",
+          "lineHeight": "$utrecht.lineHeights.lineHeights.lineheight-size-loose",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-md",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-md",
+          "paragraphSpacing": "0"
+        },
+        "description": "Placeholder tekst van formulierelementen"
+      },
+      "color": {
+        "value": "$utrecht.color.grey.grey-80",
+        "description": "Kleur van placeholder tekst",
+        "type": "color"
+      }
+    },
+    "form-helpertext": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-regular",
+          "lineHeight": "$utrecht.lineHeights.lineHeights.lineheight-size-loose",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-sm",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-md",
+          "paragraphSpacing": "0"
+        },
+        "description": "Placeholder tekst van formulierelementen"
+      },
+      "default": {
+        "value": "$utrecht.color.basis.black",
+        "description": "Kleur van placeholder tekst",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "$utrecht.color.grey.grey-80",
+        "description": "Kleur van placeholder tekst",
+        "type": "color"
+      }
+    },
+    "form-toggle": {
+      "border-width": {
+        "value": "$utrecht.common.border-width.border-width-sm",
+        "type": "borderWidth"
+      }
+    },
+    "heading-1": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-bold",
+          "lineHeight": "$utrecht.lineHeights.lineheight-size-tight",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-3xl",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-md",
+          "paragraphSpacing": "0"
+        },
+        "description": "Layout voor header-1 H1 token"
+      }
+    },
+    "heading-2": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-bold",
+          "lineHeight": "$utrecht.lineHeights.lineheight-size-tight",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-xl",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-md",
+          "paragraphSpacing": "0"
+        },
+        "description": "Layout voor header-2 H2 token"
+      }
+    },
+    "heading-3": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-regular",
+          "lineHeight": "$utrecht.lineHeights.lineheight-size-tight",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-xl",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-md",
+          "paragraphSpacing": "0"
+        },
+        "description": "Layout voor header-3 H3 token"
+      }
+    },
+    "heading-4": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-regular",
+          "lineHeight": "$utrecht.lineHeights.lineheight-size-normal",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-lg",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-md",
+          "paragraphSpacing": "0"
+        },
+        "description": "Layout voor header-4 H4 token"
+      }
+    },
+    "heading-5": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-regular",
+          "lineHeight": "$utrecht.lineHeights.lineheight-size-normal",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-md",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-sm",
+          "paragraphSpacing": "0"
+        },
+        "description": "Layout voor header-5 H5 token"
+      }
+    },
+    "heading-6": {
+      "font": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$utrecht.document.font-family",
+          "fontWeight": "$utrecht.typography.fontWeights.font-weight-regular",
+          "lineHeight": "$utrecht.lineHeights.lineheight-size-normal",
+          "fontSize": "$utrecht.typography.fontSizes.font-size-md",
+          "letterSpacing": "$utrecht.letterSpacings.letterSpacing-size-sm",
+          "paragraphSpacing": "0"
+        },
+        "description": "Layout voor header-6 H6 token"
+      }
+    },
+    "form-label": {
+      "default": {
+        "value": "$utrecht.color.basis.black",
+        "description": "Kleur van de formulier labels",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "$utrecht.color.grey.grey-80",
+        "description": "Kleur van disabled formulier elementen labels",
+        "type": "color"
+      }
+    },
+    "checkbox": {
+      "default": {
+        "background-color": {
+          "value": "$utrecht.color.grey.grey-30",
+          "description": "Achtergrond van standaard checkbox",
+          "type": "color"
+        }
+      },
+      "checked": {
+        "background-color": {
+          "value": "$utrecht.color.blue.blue-35",
+          "description": "Achtergrond van selected checkbox",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$utrecht.color.blue.blue-35",
+          "description": "Checkbox in hover staat",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "background-color": {
+          "value": "$utrecht.color.grey.grey-80",
+          "description": "Checkbox in disabled staat",
+          "type": "color"
+        }
+      },
+      "error": {
+        "background-color": {
+          "value": "$utrecht.color.red.red-30",
+          "description": "Checkbox in foutieve staat",
+          "type": "color"
+        }
+      }
+    },
+    "radiobutton": {
+      "default": {
+        "background-color": {
+          "value": "$utrecht.color.grey.grey-30",
+          "description": "Achtergrond van standaard radio button",
+          "type": "color"
+        }
+      },
+      "checked": {
+        "background-color": {
+          "value": "$utrecht.color.blue.blue-35",
+          "description": "Achtergrond van selected radio button",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$utrecht.color.blue.blue-35",
+          "description": "Radio button in hover staat",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "background-color": {
+          "value": "$utrecht.color.grey.grey-80",
+          "description": "Radio button in disabled staat",
+          "type": "color"
+        }
+      },
+      "error": {
+        "background-color": {
+          "value": "$utrecht.color.red.red-30",
+          "description": "Radio button in foutieve staat",
+          "type": "color"
+        }
+      }
+    },
+    "link": {
+      "color": {
+        "value": "$utrecht.color.blue.blue-35",
+        "description": "Link kleur",
+        "type": "color"
+      },
+      "hover": {
+        "color": {
+          "value": "$utrecht.color.blue.blue-40",
+          "description": "Link hover kleur",
+          "type": "color"
+        }
+      }
+    },
+    "icon": {
+      "background-color": {
+        "value": "$utrecht.color.red.red-30",
+        "description": "Achtergrondkleur secondary button",
+        "type": "color"
+      },
+      "color": {
+        "value": "$utrecht.color.basis.white",
+        "description": "Tekst kleur secondary button",
+        "type": "color"
+      }
+    },
+    "accordion": {
+      "color": {
+        "value": "$utrecht.color.blue.blue-35",
+        "description": "Tekst kleur accordion",
+        "type": "color"
+      },
+      "background-color": {
+        "value": "$utrecht.color.blue.blue-90",
+        "description": "Achtergrondkleur accordion",
+        "type": "color"
+      },
+      "disabled": {
+        "color": {
+          "value": "$utrecht.color.basis.white",
+          "description": "Tekst kleur accordion bij disabled",
+          "type": "color"
+        },
+        "background-color": {
+          "value": "$utrecht.form-input.disabled.color",
+          "description": "Achtergrond kleur disabled accordion",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$utrecht.color.blue.blue-80",
+          "description": "Achtergrondkleur hover accordion",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "white-label": {
+    "nl": {
+      "fontFamilies": {
+        "document-font-family": {
+          "value": "Arial",
+          "type": "fontFamilies"
+        },
+        "heading-font-family": {
+          "value": "$nl.fontFamilies.document-font-family",
+          "type": "fontFamilies"
+        }
+      },
+      "lineHeights": {
+        "brand-tokens": {
+          "line-height-loose": {
+            "value": "150%",
+            "type": "lineHeights"
+          },
+          "line-height-tight": {
+            "value": "120%",
+            "type": "lineHeights"
+          },
+          "line-height-none": {
+            "value": "100%",
+            "type": "lineHeights"
+          }
+        },
+        "component-tokens": {
+          "heading-line-height": {
+            "value": "$nl.lineHeights.line-height-tight",
+            "type": "lineHeights"
+          },
+          "paragraph-line-height": {
+            "value": "$nl.lineHeights.line-height-loose",
+            "type": "lineHeights"
+          },
+          "button-line-height": {
+            "value": "$nl.lineHeights.brand-tokens.line-height-loose",
+            "type": "lineHeights"
+          },
+          "badge-line-height": {
+            "value": "$nl.lineHeights.line-height-loose",
+            "type": "lineHeights"
+          }
+        }
+      },
+      "fontWeights": {
+        "brand-tokens": {
+          "font-weight-regular": {
+            "value": "Regular",
+            "type": "fontWeights"
+          },
+          "font-weight-bold": {
+            "value": "Bold",
+            "type": "fontWeights"
+          }
+        },
+        "component-tokens": {
+          "badge-font-weight": {
+            "value": "Bold",
+            "type": "fontWeights"
+          }
+        }
+      },
+      "fontSizes": {
+        "brand-tokens": {
+          "font-size-xs": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md * .75",
+            "type": "fontSizes"
+          },
+          "font-size-sm": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md * .875",
+            "type": "fontSizes"
+          },
+          "font-size-md": {
+            "value": "16",
+            "type": "fontSizes"
+          },
+          "font-size-lg": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md * 1.125",
+            "type": "fontSizes"
+          },
+          "font-size-xl": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md * 1.25",
+            "type": "fontSizes"
+          },
+          "font-size-2xl": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md * 1.5",
+            "type": "fontSizes"
+          },
+          "font-size-3xl": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md * 1.75",
+            "type": "fontSizes"
+          },
+          "font-size-4xl": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md * 2",
+            "type": "fontSizes"
+          },
+          "font-size-5xl": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md * 2.25",
+            "type": "fontSizes"
+          }
+        },
+        "component-tokens": {
+          "button-font-size": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md",
+            "type": "fontSizes"
+          },
+          "breadcrumb-font-size": {
+            "value": "$nl.fontSizes.brand-tokens.font-size-md",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "letterSpacing": {
+        "0": {
+          "value": "0",
+          "type": "letterSpacing"
+        }
+      },
+      "paragraphSpacing": {
+        "0": {
+          "value": "0",
+          "type": "paragraphSpacing"
+        }
+      },
+      "typography": {
+        "paragraph-text-sm": {
+          "paragraph-sm": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "lead-paragraph-sm": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          }
+        },
+        "paragraph-text-md": {
+          "paragraph-md": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "lead-paragraph-md": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          }
+        },
+        "paragraph-text-lg": {
+          "paragraph-lg": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "lead-paragraph-lg": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          }
+        },
+        "heading-text-sm": {
+          "heading-1-sm": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-3xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-2-sm": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-2xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-3-sm": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-4-sm": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-lg",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-5-sm": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-6-sm": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          }
+        },
+        "heading-text-md": {
+          "heading-1-md": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-4xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-2-md": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-3xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-3-md": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-2xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-4-md": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-5-md": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-lg",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-6-md": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          }
+        },
+        "heading-text-lg": {
+          "heading-1-lg": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-5xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-2-lg": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-4xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-3-lg": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-3xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-4-lg": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-2xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-5-lg": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-xl",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "heading-6-lg": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-lg",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          }
+        },
+        "form-text": {
+          "form-label": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.form-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "form-optional-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.form-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-sm",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "form-helper-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.form-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-sm",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "form-placeholder": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.form-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "form-input-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.form-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "form-disabled-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.form-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "form-feedback-error-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.form-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-sm",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          }
+        },
+        "component-text": {
+          "button-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.button-line-height",
+              "fontSize": "$nl.fontSizes.component-tokens.button-font-size",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "tab-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "breadcrumb-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "collapse-heading-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-lg",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "notification-heading-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.heading-font--family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-bold",
+              "lineHeight": "$nl.lineHeights.component-tokens.heading-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-lg",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "notification-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.brand-tokens.font-weight-regular",
+              "lineHeight": "$nl.lineHeights.component-tokens.paragraph-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "badge-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.component-tokens.badge-font-weight",
+              "lineHeight": "$nl.lineHeights.component-tokens.badge-line-height",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-sm",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          },
+          "pagination-text": {
+            "value": {
+              "fontFamily": "$nl.fontFamilies.document-font-family",
+              "fontWeight": "$nl.fontWeights.component-tokens.badge-font-weight",
+              "lineHeight": "$nl.lineHeights.component-tokens.badge-line-none",
+              "fontSize": "$nl.fontSizes.brand-tokens.font-size-md",
+              "letterSpacing": "$nl.letterSpacing.0",
+              "paragraphSpacing": "$nl.paragraphSpacing.0"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "colors": {
+        "brand-tokens": {
+          "neutral": {
+            "color-black": {
+              "value": "hsla(0, 0%, 11%, 1)",
+              "description": "Standard foreground color",
+              "type": "color"
+            },
+            "color-grey-6": {
+              "value": "hsla(0, 0%, 24.7%, 1)",
+              "type": "color"
+            },
+            "color-grey-5": {
+              "value": "hsla(0, 0%, 39.2%, 1)",
+              "type": "color"
+            },
+            "color-grey-4": {
+              "value": "hsla(0, 0%, 53.3%, 1)",
+              "type": "color"
+            },
+            "color-grey-3": {
+              "value": "hsla(0, 0%, 67.5%, 1)",
+              "type": "color"
+            },
+            "color-grey-2": {
+              "value": "hsla(0, 0%, 82%, 1)",
+              "type": "color"
+            },
+            "color-grey-1": {
+              "value": "hsla(0, 0%, 96.1%, 1)",
+              "type": "color"
+            },
+            "color-white": {
+              "value": "hsla(0, 0%, 100%, 1)",
+              "type": "color"
+            }
+          },
+          "red": {
+            "color-red-50": {
+              "value": "hsla(345, 100%, 96.1%, 1)",
+              "type": "color"
+            },
+            "color-red-100": {
+              "value": "hsla(347.1, 100%, 90%, 1)",
+              "type": "color"
+            },
+            "color-red-200": {
+              "value": "hsla(353.4, 77.8%, 77.1%, 1)",
+              "type": "color"
+            },
+            "color-red-300": {
+              "value": "hsla(353.2, 74.7%, 67.5%, 1)",
+              "type": "color"
+            },
+            "color-red-400": {
+              "value": "hsla(352.8, 91.6%, 62.5%, 1)",
+              "type": "color"
+            },
+            "color-red-500": {
+              "value": "hsla(353.4, 99.1%, 58.6%, 1)",
+              "type": "color"
+            },
+            "color-red-600": {
+              "value": "hsla(350.3, 85.7%, 53.3%, 1)",
+              "type": "color"
+            },
+            "color-red-700": {
+              "value": "hsla(348, 83.3%, 47.1%, 1)",
+              "type": "color"
+            },
+            "color-red-800": {
+              "value": "hsla(346, 95.3%, 41.6%, 1)",
+              "type": "color"
+            },
+            "color-red-900": {
+              "value": "hsla(348, 100%, 38%, 1)",
+              "type": "color"
+            }
+          },
+          "green": {
+            "color-green-50": {
+              "value": "hsla(116.3, 47.1%, 93.3%, 1)",
+              "type": "color"
+            },
+            "color-green-100": {
+              "value": "hsla(112.1, 44.2%, 83.1%, 1)",
+              "type": "color"
+            },
+            "color-green-200": {
+              "value": "hsla(113.3, 44.7%, 72.4%, 1)",
+              "type": "color"
+            },
+            "color-green-300": {
+              "value": "hsla(114, 45.5%, 61.2%, 1)",
+              "type": "color"
+            },
+            "color-green-400": {
+              "value": "hsla(114.6, 46.3%, 52.5%, 1)",
+              "type": "color"
+            },
+            "color-green-500": {
+              "value": "hsla(114.3, 63.3%, 42.7%, 1)",
+              "type": "color"
+            },
+            "color-green-600": {
+              "value": "hsla(115, 68%, 38%, 1)",
+              "type": "color"
+            },
+            "color-green-700": {
+              "value": "hsla(116.3, 79%, 31.8%, 1)",
+              "type": "color"
+            },
+            "color-green-800": {
+              "value": "hsla(120, 100%, 25.1%, 1)",
+              "type": "color"
+            },
+            "color-green-900": {
+              "value": "hsla(120, 100%, 19%, 1)",
+              "type": "color"
+            }
+          },
+          "blue": {
+            "color-blue-50": {
+              "value": "hsla(205.7, 100%, 94.5%, 1)",
+              "type": "color"
+            },
+            "color-blue-100": {
+              "value": "hsla(206.9, 100%, 86.9%, 1)",
+              "type": "color"
+            },
+            "color-blue-200": {
+              "value": "hsla(206.2, 100%, 78.4%, 1)",
+              "type": "color"
+            },
+            "color-blue-300": {
+              "value": "hsla(206, 100%, 69.2%, 1)",
+              "type": "color"
+            },
+            "color-blue-400": {
+              "value": "hsla(205.7, 100%, 62%, 1)",
+              "type": "color"
+            },
+            "color-blue-500": {
+              "value": "hsla(205.5, 100%, 54.7%, 1)",
+              "type": "color"
+            },
+            "color-blue-600": {
+              "value": "hsla(209.9, 100%, 55.9%, 1)",
+              "type": "color"
+            },
+            "color-blue-700": {
+              "value": "hsla(212.6, 83.6%, 52.2%, 1)",
+              "type": "color"
+            },
+            "color-blue-800": {
+              "value": "hsla(216, 74.3%, 48.8%, 1)",
+              "type": "color"
+            },
+            "color-blue-900": {
+              "value": "hsla(223.2, 71.3%, 42.4%, 1)",
+              "type": "color"
+            }
+          },
+          "yellow": {
+            "color-yellow-50": {
+              "value": "hsla(38.2, 100%, 93.5%, 1)",
+              "type": "color"
+            },
+            "color-yellow-100": {
+              "value": "hsla(37, 100%, 84.1%, 1)",
+              "type": "color"
+            },
+            "color-yellow-200": {
+              "value": "hsla(36.9, 100%, 73.5%, 1)",
+              "type": "color"
+            },
+            "color-yellow-300": {
+              "value": "hsla(37.1, 100%, 62.5%, 1)",
+              "type": "color"
+            },
+            "color-yellow-400": {
+              "value": "hsla(39.1, 100%, 50%, 1)",
+              "type": "color"
+            },
+            "color-yellow-500": {
+              "value": "hsla(35.3, 100%, 50%, 1)",
+              "type": "color"
+            },
+            "color-yellow-600": {
+              "value": "hsla(32.9, 100%, 49.4%, 1)",
+              "type": "color"
+            },
+            "color-yellow-700": {
+              "value": "hsla(29.4, 100%, 48.4%, 1)",
+              "type": "color"
+            },
+            "color-yellow-800": {
+              "value": "hsla(25.8, 100%, 47.5%, 1)",
+              "type": "color"
+            },
+            "color-yellow-900": {
+              "value": "hsla(19.3, 100%, 45.7%, 1)",
+              "type": "color"
+            }
+          },
+          "purple": {
+            "color-purple-50": {
+              "value": "hsla(314.1, 43.6%, 92.4%, 1)",
+              "type": "color"
+            },
+            "color-purple-100": {
+              "value": "hsla(311.7, 42.3%, 81%, 1)",
+              "type": "color"
+            },
+            "color-purple-200": {
+              "value": "hsla(310.6, 42%, 68.2%, 1)",
+              "type": "color"
+            },
+            "color-purple-300": {
+              "value": "hsla(310.1, 41.5%, 55.1%, 1)",
+              "type": "color"
+            },
+            "color-purple-400": {
+              "value": "hsla(308.8, 50.4%, 45.1%, 1)",
+              "type": "color"
+            },
+            "color-purple-500": {
+              "value": "hsla(307.1, 84.7%, 33.3%, 1)",
+              "type": "color"
+            },
+            "color-purple-600": {
+              "value": "hsla(304.4, 89.5%, 30%, 1)",
+              "type": "color"
+            },
+            "color-purple-601": {
+              "value": "$nl.colors.brand-tokens.purple.color-purple-500",
+              "type": "color"
+            },
+            "color-purple-700": {
+              "value": "hsla(300, 100%, 25.1%, 1)",
+              "type": "color"
+            },
+            "color-purple-800": {
+              "value": "hsla(296.5, 100%, 23.5%, 1)",
+              "type": "color"
+            },
+            "color-purple-900": {
+              "value": "hsla(287.7, 100%, 21%, 1)",
+              "type": "color"
+            }
+          }
+        },
+        "common-tokens": {
+          "document-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-black",
+            "type": "color"
+          },
+          "heading-color": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-800",
+            "type": "color"
+          },
+          "link-color": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-800",
+            "type": "color"
+          },
+          "link-visited-color": {
+            "value": "$nl.colors.brand-tokens.purple.color-purple-700",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-black",
+            "type": "color"
+          },
+          "icon-color-inversed": {
+            "value": "$nl.colors.brand-tokens.neutral.color-white",
+            "type": "color"
+          },
+          "foreground-color-feedback-info": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-800",
+            "type": "color"
+          },
+          "background-color-feedback-info": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-50",
+            "type": "color"
+          },
+          "foreground-color-feedback-success": {
+            "value": "$nl.colors.brand-tokens.green.color-green-800",
+            "type": "color"
+          },
+          "background-color-feedback-success": {
+            "value": "$nl.colors.brand-tokens.green.color-green-50",
+            "type": "color"
+          },
+          "foreground-color-feedback-warning": {
+            "value": "$nl.colors.brand-tokens.yellow.color-yellow-600",
+            "type": "color"
+          },
+          "backgroundcolor-feedback-warning": {
+            "value": "$nl.colors.brand-tokens.yellow.color-yellow-50",
+            "type": "color"
+          },
+          "foreground-color-feedback-error": {
+            "value": "$nl.colors.brand-tokens.red.color-red-800",
+            "type": "color"
+          },
+          "background-color-feedback-error": {
+            "value": "$nl.colors.brand-tokens.red.color-red-50",
+            "type": "color"
+          }
+        },
+        "component-tokens": {
+          "form-input-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-white",
+            "type": "color"
+          },
+          "form-input-border-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-5",
+            "type": "color"
+          },
+          "form-input-border-disabled-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-2",
+            "type": "color"
+          },
+          "form-input-hover-border-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-5",
+            "type": "color"
+          },
+          "form-input-focus-border-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-5",
+            "type": "color"
+          },
+          "form-helper-text-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-6",
+            "type": "color"
+          },
+          "button-primary-action-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-black",
+            "type": "color"
+          },
+          "button-secondary-action-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-5",
+            "type": "color"
+          },
+          "button-disabled-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-2",
+            "type": "color"
+          },
+          "button-primary-action-hover-background-color": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-900",
+            "type": "color"
+          },
+          "button-primary-action-focus-background-color": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-900",
+            "type": "color"
+          },
+          "button-primary-action-active-background-color": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-900",
+            "type": "color"
+          },
+          "button-secondary-action-hover-background-color": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-900",
+            "type": "color"
+          },
+          "button-secondary-action-focus-background-color": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-900",
+            "type": "color"
+          },
+          "button-secondary-action-active-background-color": {
+            "value": "$nl.colors.brand-tokens.blue.color-blue-900",
+            "type": "color"
+          },
+          "button-primary-action-text-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-white",
+            "type": "color"
+          },
+          "button-secondary-action-text-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-white",
+            "type": "color"
+          },
+          "button-disabled-text-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-white",
+            "type": "color"
+          },
+          "tab-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-white",
+            "type": "color"
+          },
+          "tab-hover-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-1",
+            "type": "color"
+          },
+          "tab-focus-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-1",
+            "type": "color"
+          },
+          "tab-active-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-2",
+            "type": "color"
+          },
+          "tab-disabled-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-grey-3",
+            "type": "color"
+          },
+          "tab-current-indicator-color": {
+            "value": "$nl.colors.common-tokens.link-color",
+            "type": "color",
+            "description": ""
+          },
+          "breadcrumb-link-color": {
+            "value": "$nl.colors.common-tokens.link-color",
+            "type": "color",
+            "description": "Color for breadcrumb link in default state"
+          },
+          "badge-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-black",
+            "type": "color",
+            "description": "Default background color for a badge"
+          },
+          "badge-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-white",
+            "type": "color",
+            "description": "Default foreground color for a badge"
+          },
+          "pagination-page-link-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-white",
+            "type": "color",
+            "description": "Default background color for a pagination page link"
+          },
+          "pagination-page-link-current-background-color": {
+            "value": "$nl.colors.brand-tokens.neutral.color-black",
+            "type": "color",
+            "description": "Background color for currently selected pagination page link"
+          }
+        }
+      },
+      "borderRadius": {
+        "brand-tokens": {
+          "border-radius-round": {
+            "value": "2",
+            "type": "borderRadius"
+          },
+          "border-radius-none": {
+            "value": "0",
+            "type": "borderRadius"
+          },
+          "border-radius-circle": {
+            "value": "100%",
+            "type": "borderRadius"
+          }
+        },
+        "component-tokens": {
+          "form-input-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-round",
+            "type": "borderRadius"
+          },
+          "button-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-round",
+            "type": "borderRadius"
+          },
+          "tab-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-round",
+            "type": "borderRadius"
+          },
+          "checkbox-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-round",
+            "type": "borderRadius"
+          },
+          "radio-button-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-circle",
+            "type": "borderRadius"
+          },
+          "toggle-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-circle",
+            "type": "borderRadius"
+          },
+          "tab-current-indicator-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-round",
+            "type": "borderRadius"
+          },
+          "badge-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-circle",
+            "type": "borderRadius"
+          },
+          "pagination-page-link-border-radius": {
+            "value": "$nl.borderRadius.brand-tokens.border-radius-round",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "sizing": {
+        "brand-tokens": {
+          "size-1": {
+            "value": "1",
+            "type": "sizing"
+          },
+          "size-2": {
+            "value": "2",
+            "type": "sizing"
+          },
+          "size-4": {
+            "value": "4",
+            "type": "sizing"
+          },
+          "size-8": {
+            "value": "8",
+            "type": "sizing"
+          },
+          "size-12": {
+            "value": "12",
+            "type": "sizing"
+          },
+          "size-16": {
+            "value": "16",
+            "type": "sizing"
+          },
+          "size-24": {
+            "value": "24",
+            "type": "sizing"
+          },
+          "size-32": {
+            "value": "32",
+            "type": "sizing"
+          },
+          "size-40": {
+            "value": "40",
+            "type": "sizing"
+          },
+          "size-48": {
+            "value": "48",
+            "type": "sizing"
+          },
+          "size-56": {
+            "value": "56",
+            "type": "sizing"
+          },
+          "size-64": {
+            "value": "64",
+            "type": "sizing"
+          },
+          "size-72": {
+            "value": "72",
+            "type": "sizing"
+          },
+          "size-80": {
+            "value": "80",
+            "type": "sizing"
+          },
+          "size-96": {
+            "value": "96",
+            "type": "sizing"
+          }
+        },
+        "inline": {
+          "size-inline-4xs": {
+            "value": "$nl.sizing.brand-tokens.size-1",
+            "type": "sizing"
+          },
+          "size-inline-3xs": {
+            "value": "$nl.sizing.brand-tokens.size-2",
+            "type": "sizing"
+          },
+          "size-inline-2xs": {
+            "value": "$nl.sizing.brand-tokens.size-4",
+            "type": "sizing"
+          },
+          "size-inline-xs": {
+            "value": "$nl.sizing.brand-tokens.size-8",
+            "type": "sizing"
+          },
+          "size-inline-sm": {
+            "value": "$nl.sizing.brand-tokens.size-12",
+            "type": "sizing"
+          },
+          "size-inline-md": {
+            "value": "$nl.sizing.brand-tokens.size-16",
+            "type": "sizing"
+          },
+          "size-inline-lg": {
+            "value": "$nl.sizing.brand-tokens.size-24",
+            "type": "sizing"
+          },
+          "size-inline-xl": {
+            "value": "$nl.sizing.brand-tokens.size-32",
+            "type": "sizing"
+          },
+          "size-inline-2xl": {
+            "value": "$nl.sizing.brand-tokens.size-40",
+            "type": "sizing"
+          },
+          "size-inline-3xl": {
+            "value": "$nl.sizing.brand-tokens.size-48",
+            "type": "sizing"
+          },
+          "size-inline-4xl": {
+            "value": "$nl.sizing.brand-tokens.size-56",
+            "type": "sizing"
+          },
+          "size-inline-5xl": {
+            "value": "$nl.sizing.brand-tokens.size-64",
+            "type": "sizing"
+          }
+        },
+        "block": {
+          "size-block-4xs": {
+            "value": "$nl.sizing.brand-tokens.size-1",
+            "type": "sizing"
+          },
+          "size-block-3xs": {
+            "value": "$nl.sizing.brand-tokens.size-2",
+            "type": "sizing"
+          },
+          "size-block-2xs": {
+            "value": "$nl.sizing.brand-tokens.size-4",
+            "type": "sizing"
+          },
+          "size-block-xs": {
+            "value": "$nl.sizing.brand-tokens.size-8",
+            "type": "sizing"
+          },
+          "size-block-sm": {
+            "value": "$nl.sizing.brand-tokens.size-12",
+            "type": "sizing"
+          },
+          "size-block-md": {
+            "value": "$nl.sizing.brand-tokens.size-16",
+            "type": "sizing"
+          },
+          "size-block-lg": {
+            "value": "$nl.sizing.brand-tokens.size-24",
+            "type": "sizing"
+          },
+          "size-block-xl": {
+            "value": "$nl.sizing.brand-tokens.size-32",
+            "type": "sizing"
+          },
+          "size-block-2xl": {
+            "value": "$nl.sizing.brand-tokens.size-40",
+            "type": "sizing"
+          },
+          "size-block-3xl": {
+            "value": "$nl.sizing.brand-tokens.size-48",
+            "type": "sizing"
+          },
+          "size-block-4xl": {
+            "value": "$nl.sizing.brand-tokens.size-56",
+            "type": "sizing"
+          },
+          "size-block-5xl": {
+            "value": "$nl.sizing.brand-tokens.size-64",
+            "type": "sizing"
+          },
+          "size-block-6xl": {
+            "value": "$nl.sizing.brand-tokens.size-80",
+            "type": "sizing"
+          }
+        },
+        "component-tokens": {
+          "size-checkbox": {
+            "value": "$nl.sizing.brand-tokens.size-24",
+            "type": "sizing"
+          },
+          "size-radio-button": {
+            "value": "$nl.sizing.brand-tokens.size-24",
+            "type": "sizing"
+          },
+          "size-pagination-page-link": {
+            "value": "$nl.sizing.brand-tokens.size-48",
+            "type": "sizing"
+          },
+          "size-toggle-width": {
+            "value": "$nl.sizing.brand-tokens.size-48",
+            "type": "sizing"
+          },
+          "size-toggle-height": {
+            "value": "$nl.sizing.brand-tokens.size-24",
+            "type": "sizing"
+          },
+          "size-toggle-switch": {
+            "value": "$nl.sizing.brand-tokens.size-16",
+            "type": "sizing"
+          }
+        }
+      },
+      "spacing": {
+        "brand-tokens": {
+          "space-1": {
+            "value": "1",
+            "type": "spacing"
+          },
+          "space-2": {
+            "value": "2",
+            "type": "spacing"
+          },
+          "space-4": {
+            "value": "4",
+            "type": "spacing"
+          },
+          "space-8": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "space-12": {
+            "value": "12",
+            "type": "spacing"
+          },
+          "space-16": {
+            "value": "16",
+            "type": "spacing"
+          },
+          "space-24": {
+            "value": "24",
+            "type": "spacing"
+          },
+          "space-32": {
+            "value": "32",
+            "type": "spacing"
+          },
+          "space-40": {
+            "value": "40",
+            "type": "spacing"
+          },
+          "space-48": {
+            "value": "48",
+            "type": "spacing"
+          },
+          "space-56": {
+            "value": "56",
+            "type": "spacing"
+          },
+          "space-64": {
+            "value": "64",
+            "type": "spacing"
+          },
+          "space-72": {
+            "value": "72",
+            "type": "spacing"
+          },
+          "space-80": {
+            "value": "80",
+            "type": "spacing"
+          },
+          "space-96": {
+            "value": "96",
+            "type": "spacing"
+          }
+        },
+        "inline-spacing": {
+          "space-inline-4xs": {
+            "value": "$nl.spacing.brand-tokens.space-1",
+            "type": "spacing"
+          },
+          "space-inline-3xs": {
+            "value": "$nl.spacing.brand-tokens.space-2",
+            "type": "spacing"
+          },
+          "space-inline-2xs": {
+            "value": "$nl.spacing.brand-tokens.space-4",
+            "type": "spacing"
+          },
+          "space-inline-xs": {
+            "value": "$nl.spacing.brand-tokens.space-8",
+            "type": "spacing"
+          },
+          "space-inline-sm": {
+            "value": "$nl.spacing.brand-tokens.space-12",
+            "type": "spacing"
+          },
+          "space-inline-md": {
+            "value": "$nl.spacing.brand-tokens.space-16",
+            "type": "spacing"
+          },
+          "space-inline-lg": {
+            "value": "$nl.spacing.brand-tokens.space-24",
+            "type": "spacing"
+          },
+          "space-inline-xl": {
+            "value": "$nl.spacing.brand-tokens.space-32",
+            "type": "spacing"
+          },
+          "space-inline-2xl": {
+            "value": "$nl.spacing.brand-tokens.space-40",
+            "type": "spacing"
+          },
+          "space-inline-3xl": {
+            "value": "$nl.spacing.brand-tokens.space-48",
+            "type": "spacing"
+          },
+          "space-inline-4xl": {
+            "value": "$nl.spacing.brand-tokens.space-56",
+            "type": "spacing"
+          },
+          "space-inline-5xl": {
+            "value": "$nl.spacing.brand-tokens.space-64",
+            "type": "spacing"
+          }
+        },
+        "block-spacing": {
+          "space-block-4xs": {
+            "value": "$nl.spacing.brand-tokens.space-1",
+            "type": "spacing"
+          },
+          "space-block-3xs": {
+            "value": "$nl.spacing.brand-tokens.space-2",
+            "type": "spacing"
+          },
+          "space-block-2xs": {
+            "value": "$nl.spacing.brand-tokens.space-4",
+            "type": "spacing"
+          },
+          "space-block-xs": {
+            "value": "$nl.spacing.brand-tokens.space-8",
+            "type": "spacing"
+          },
+          "space-block-sm": {
+            "value": "$nl.spacing.brand-tokens.space-12",
+            "type": "spacing"
+          },
+          "space-block-md": {
+            "value": "$nl.spacing.brand-tokens.space-16",
+            "type": "spacing"
+          },
+          "space-block-lg": {
+            "value": "$nl.spacing.brand-tokens.space-24",
+            "type": "spacing"
+          },
+          "space-block-xl": {
+            "value": "$nl.spacing.brand-tokens.space-32",
+            "type": "spacing"
+          },
+          "space-block-2xl": {
+            "value": "$nl.spacing.brand-tokens.space-40",
+            "type": "spacing"
+          },
+          "space-block-3xl": {
+            "value": "$nl.spacing.brand-tokens.space-48",
+            "type": "spacing"
+          },
+          "space-block-4xl": {
+            "value": "$nl.spacing.brand-tokens.space-56",
+            "type": "spacing"
+          },
+          "space-block-5xl": {
+            "value": "$nl.spacing.brand-tokens.space-64",
+            "type": "spacing"
+          },
+          "space-block-6xl": {
+            "value": "$nl.spacing.brand-tokens.space-80",
+            "type": "spacing"
+          }
+        },
+        "component-tokens": {
+          "button-padding-inline-start": {
+            "value": "$nl.spacing.inline-spacing.space-inline-xl",
+            "type": "spacing"
+          },
+          "button-padding-inline-end": {
+            "value": "$nl.spacing.inline-spacing.space-inline-xl",
+            "type": "spacing"
+          },
+          "button-padding-block-start": {
+            "value": "$nl.spacing.block-spacing.space-block-sm",
+            "type": "spacing"
+          },
+          "button-padding-block-end": {
+            "value": "$nl.spacing.block-spacing.space-block-sm",
+            "type": "spacing"
+          },
+          "icon-margin-start": {
+            "value": "$nl.spacing.block-spacing.space-block-md",
+            "type": "spacing"
+          },
+          "icon-margin-end": {
+            "value": "$nl.spacing.block-spacing.space-block-md",
+            "type": "spacing"
+          },
+          "checkbox-margin-end": {
+            "value": "$nl.spacing.block-spacing.space-block-xs",
+            "type": "spacing"
+          },
+          "radio-button-margin-end": {
+            "value": "$nl.spacing.block-spacing.space-block-xs",
+            "type": "spacing"
+          },
+          "toggle-margin-end": {
+            "value": "$nl.spacing.block-spacing.space-block-xs",
+            "type": "spacing"
+          },
+          "notification-padding-inline-start": {
+            "value": "$nl.spacing.inline-spacing.space-inline-sm",
+            "type": "spacing"
+          },
+          "notification-padding-inline-end": {
+            "value": "$nl.spacing.inline-spacing.space-inline-sm",
+            "type": "spacing"
+          },
+          "notification-padding-block-start": {
+            "value": "$nl.spacing.block-spacing.space-block-xs",
+            "type": "spacing"
+          },
+          "notification-padding-block-end": {
+            "value": "$nl.spacing.block-spacing.space-block-xs",
+            "type": "spacing"
+          },
+          "badge-padding-inline": {
+            "value": "$nl.spacing.inline-spacing.space-inline-md",
+            "type": "spacing"
+          },
+          "badge-padding-block": {
+            "value": "$nl.spacing.block-spacing.space-block-xs",
+            "type": "spacing"
+          }
+        }
+      },
+      "borderWidth": {
+        "brand-tokens": {
+          "border-width-1": {
+            "value": "1",
+            "type": "borderWidth"
+          },
+          "border-width-2": {
+            "value": "2",
+            "type": "borderWidth"
+          },
+          "border-width-0": {
+            "value": "0",
+            "type": "borderWidth"
+          }
+        },
+        "component-tokens": {
+          "button-border-width": {
+            "value": "$nl.borderWidth.brand-tokens.border-width-0",
+            "type": "borderWidth"
+          },
+          "checkbox-border-width": {
+            "value": "$nl.borderWidth.brand-tokens.border-width-2",
+            "type": "borderWidth"
+          },
+          "radio-button-border-width": {
+            "value": "$nl.borderWidth.brand-tokens.border-width-2",
+            "type": "borderWidth"
+          },
+          "toggle-border-width": {
+            "value": "$nl.borderWidth.brand-tokens.border-width-2",
+            "type": "borderWidth"
+          }
+        }
+      },
+      "opacity": {
+        "opacity-5": {
+          "value": "5%",
+          "type": "opacity"
+        },
+        "opacity-0": {
+          "value": "0%",
+          "type": "opacity"
+        }
+      }
+    }
+  },
+  "denhaag": {
+    "colors": {
+      "brand-tokens": {
+        "Neutrals": {
+          "Black": {
+            "value": "#000000",
+            "type": "color"
+          },
+          "White": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        },
+        "Blue": {
+          "1": {
+            "value": "#daebfa",
+            "type": "color"
+          },
+          "2": {
+            "value": "#adcded",
+            "type": "color"
+          },
+          "3": {
+            "value": "#1261a3",
+            "type": "color"
+          },
+          "4": {
+            "value": "#094b81",
+            "type": "color"
+          },
+          "5": {
+            "value": "#032c4e",
+            "type": "color"
+          }
+        },
+        "Ocher": {
+          "1": {
+            "value": "#fff7d1",
+            "type": "color"
+          },
+          "2": {
+            "value": "#ffeb85",
+            "type": "color"
+          },
+          "3": {
+            "value": "#f8d62d",
+            "type": "color"
+          },
+          "4": {
+            "value": "#cca000",
+            "type": "color"
+          },
+          "5": {
+            "value": "#7d6200",
+            "type": "color"
+          }
+        },
+        "Grey": {
+          "1": {
+            "value": "#f1f1f1",
+            "type": "color"
+          },
+          "2": {
+            "value": "#d2d2d2",
+            "type": "color"
+          },
+          "3": {
+            "value": "#7a7a7a",
+            "type": "color"
+          },
+          "4": {
+            "value": "#4b4b4b",
+            "type": "color"
+          }
+        },
+        "Warm grey": {
+          "1": {
+            "value": "#f8f7f5",
+            "type": "color"
+          }
+        },
+        "Green": {
+          "1": {
+            "value": "#d5e7d4",
+            "type": "color"
+          },
+          "2": {
+            "value": "#7eb57c",
+            "type": "color"
+          },
+          "3": {
+            "value": "#248641",
+            "type": "color"
+          },
+          "4": {
+            "value": "#1d6b34",
+            "type": "color"
+          },
+          "5": {
+            "value": "#00300f",
+            "type": "color"
+          }
+        },
+        "Red": {
+          "1": {
+            "value": "#ffd7d4",
+            "type": "color"
+          },
+          "2": {
+            "value": "#ed8980",
+            "type": "color"
+          },
+          "3": {
+            "value": "#cf1c08",
+            "type": "color"
+          },
+          "4": {
+            "value": "#a30500",
+            "type": "color"
+          },
+          "5": {
+            "value": "#540200",
+            "type": "color"
+          }
+        },
+        "Orange": {
+          "1": {
+            "value": "#ffdbad",
+            "type": "color"
+          },
+          "2": {
+            "value": "#ffb85e",
+            "type": "color"
+          },
+          "3": {
+            "value": "#f18700",
+            "type": "color"
+          },
+          "4": {
+            "value": "#e15601",
+            "type": "color"
+          },
+          "5": {
+            "value": "#8c3600",
+            "type": "color"
+          }
+        }
+      },
+      "component-tokens": {
+        "form-placeholder": {
+          "value": "$colors.brand-tokens.Grey.3",
+          "type": "color"
+        },
+        "form-input": {
+          "default": {
+            "value": "$colors.brand-tokens.Grey.4",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "$colors.brand-tokens.Grey.2",
+            "type": "color"
+          },
+          "hover": {
+            "value": "$colors.brand-tokens.Blue.3",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "fontFamilies": {
+      "font-thesans-c4s": {
+        "value": "TheSans C4s",
+        "type": "fontFamilies"
+      },
+      "font-themixb": {
+        "value": "TheMixB",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "loose": {
+        "value": "150%",
+        "type": "lineHeights"
+      },
+      "tight": {
+        "value": "15",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "font-thesans-c4s-400": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "font-themixb-400": {
+        "value": "W5 Plain",
+        "type": "fontWeights"
+      },
+      "font-themixb-700": {
+        "value": "W7 Bold",
+        "type": "fontWeights"
+      },
+      "font-thesans-c4s-700": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
+    },
+    "fontSizes": {
+      "xs": {
+        "value": "10",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "2xl": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "3xl": {
+        "value": "48",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "sm": {
+        "value": "0.8",
+        "type": "letterSpacing"
+      },
+      "none": {
+        "value": "0",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "none": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "typography": {
+      "Sans": {
+        "xs": {
+          "400": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-400",
+              "lineHeight": "$lineHeights.loose",
+              "fontSize": "$fontSizes.xs",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "sm": {
+          "400": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-400",
+              "lineHeight": "$lineHeights.loose",
+              "fontSize": "$fontSizes.sm",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          },
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-700",
+              "lineHeight": "$lineHeights.loose",
+              "fontSize": "$fontSizes.sm",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "md": {
+          "400": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-400",
+              "lineHeight": "$lineHeights.loose",
+              "fontSize": "$fontSizes.md",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          },
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-700",
+              "lineHeight": "$lineHeights.loose",
+              "fontSize": "$fontSizes.md",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "lg": {
+          "400": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-400",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.lg",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          },
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-700",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.lg",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "xl": {
+          "400": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-400",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.xl",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          },
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-thesans-c4s",
+              "fontWeight": "$fontWeights.font-thesans-c4s-700",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.xl",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        }
+      },
+      "Mix": {
+        "lg": {
+          "400": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-themixb",
+              "fontWeight": "$fontWeights.font-themixb-400",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.lg",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          },
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-themixb",
+              "fontWeight": "$fontWeights.font-themixb-700",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.lg",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "xl": {
+          "400": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-themixb",
+              "fontWeight": "$fontWeights.font-themixb-400",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.xl",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          },
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-themixb",
+              "fontWeight": "$fontWeights.font-themixb-700",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.xl",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "md": {
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-themixb",
+              "fontWeight": "$fontWeights.font-themixb-700",
+              "lineHeight": "$lineHeights.loose",
+              "fontSize": "$fontSizes.md",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "2xl": {
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-themixb",
+              "fontWeight": "$fontWeights.font-themixb-700",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.2xl",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "3xl": {
+          "700": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-themixb",
+              "fontWeight": "$fontWeights.font-themixb-700",
+              "lineHeight": "$lineHeights.tight",
+              "fontSize": "$fontSizes.3xl",
+              "letterSpacing": "$letterSpacing.none",
+              "paragraphSpacing": "$paragraphSpacing.none"
+            }
+          }
+        },
+        "form-placeholder": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-thesans-c4s",
+            "fontWeight": "$fontWeights.font-thesans-c4s-400",
+            "lineHeight": "$lineHeights.loose",
+            "fontSize": "$fontSizes.md",
+            "letterSpacing": "$letterSpacing.none",
+            "paragraphSpacing": "$paragraphSpacing.none"
+          }
+        },
+        "form-input": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-thesans-c4s",
+            "fontWeight": "$fontWeights.font-thesans-c4s-400",
+            "lineHeight": "$lineHeights.loose",
+            "fontSize": "$fontSizes.md",
+            "letterSpacing": "$letterSpacing.none",
+            "paragraphSpacing": "$paragraphSpacing.none"
+          }
+        },
+        "form-helper-text": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-thesans-c4s",
+            "fontWeight": "$fontWeights.font-thesans-c4s-400",
+            "lineHeight": "$lineHeights.loose",
+            "fontSize": "$fontSizes.sm",
+            "letterSpacing": "$letterSpacing.none",
+            "paragraphSpacing": "$paragraphSpacing.none"
+          }
+        },
+        "form-error-text": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-thesans-c4s",
+            "fontWeight": "$fontWeights.font-thesans-c4s-400",
+            "lineHeight": "$lineHeights.loose",
+            "fontSize": "$fontSizes.sm",
+            "letterSpacing": "$letterSpacing.none",
+            "paragraphSpacing": "$paragraphSpacing.none"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "3xs": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "2xs": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "20",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "40",
+        "type": "spacing"
+      },
+      "4xl": {
+        "value": "48",
+        "type": "spacing"
+      },
+      "5xl": {
+        "value": "56",
+        "type": "spacing"
+      }
+    },
+    "sizing": {
+      "Icon size": {
+        "sizing-sm": {
+          "value": "20",
+          "type": "sizing"
+        },
+        "sizing-md": {
+          "value": "24",
+          "type": "sizing"
+        }
+      },
+      "sizing-2xs": {
+        "value": "16",
+        "type": "sizing"
+      },
+      "sizing-xs": {
+        "value": "24",
+        "type": "sizing"
+      },
+      "sizing-sm": {
+        "value": "32",
+        "type": "sizing"
+      },
+      "sizing-md": {
+        "value": "48",
+        "type": "sizing"
+      },
+      "sizing-lg": {
+        "value": "64",
+        "type": "sizing"
+      },
+      "sizing-xl": {
+        "value": "96",
+        "type": "sizing"
+      },
+      "sizing-2xl": {
+        "value": "160",
+        "type": "sizing"
+      }
+    },
+    "borderRadius": {
+      "brand-tokens": {
+        "md": {
+          "value": "3",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "8",
+          "type": "borderRadius"
+        },
+        "circle": {
+          "value": "50%",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "1",
+          "type": "borderRadius"
+        },
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        }
+      },
+      "component-tokens": {
+        "input": {
+          "value": "$borderRadius.brand-tokens.md",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "boxShadow": {
+      "default": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "spread": "0",
+          "blur": "6",
+          "color": "#d2d2d2"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "borderWidth": {
+      "brand-tokens": {
+        "none": {
+          "value": "0",
+          "type": "borderWidth"
+        },
+        "sm": {
+          "value": "1",
+          "type": "borderWidth"
+        },
+        "md": {
+          "value": "2",
+          "type": "borderWidth"
+        }
+      },
+      "component-tokens": {
+        "input": {
+          "Default": {
+            "value": "$borderWidth.brand-tokens.sm",
+            "type": "borderWidth"
+          },
+          "Hover": {
+            "value": "$borderWidth.brand-tokens.md",
+            "type": "borderWidth"
+          }
+        }
+      }
+    }
+  },
+  "duo": {
+    "fontFamilies": {
+      "document-font-family": {
+        "value": "RijksoverheidSansText",
+        "type": "fontFamilies"
+      }
+    },
+    "colors": {
+      "color-foreground": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "color-feedback-error": {
+        "value": "$colors.Rood",
+        "type": "color"
+      },
+      "Rood": {
+        "value": "#d52b1e",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "form-input-border-radius": {
+        "value": "0",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "RVO": {
+    "colors": {
+      "brand-tokens": {
+        "neutral": {
+          "color-black": {
+            "value": "#000000",
+            "type": "color",
+            "description": "Standard foreground color"
+          },
+          "color-grey-6": {
+            "value": "#535353",
+            "type": "color"
+          },
+          "color-grey-5": {
+            "value": "#646464",
+            "type": "color"
+          },
+          "color-grey-4": {
+            "value": "#888888",
+            "type": "color"
+          },
+          "color-grey-3": {
+            "value": "#acacac",
+            "type": "color"
+          },
+          "color-grey-2": {
+            "value": "#d1d1d1",
+            "type": "color"
+          },
+          "color-grey-1": {
+            "value": "#f5f5f5",
+            "type": "color"
+          },
+          "color-white": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        },
+        "red": {
+          "color-red-50": {
+            "value": "#ffebf0",
+            "type": "color"
+          },
+          "color-red-100": {
+            "value": "#ffccd7",
+            "type": "color"
+          },
+          "color-red-200": {
+            "value": "#f297a1",
+            "type": "color"
+          },
+          "color-red-300": {
+            "value": "#ea6e7c",
+            "type": "color"
+          },
+          "color-red-400": {
+            "value": "#f7485d",
+            "type": "color"
+          },
+          "color-red-500": {
+            "value": "#fe2d44",
+            "type": "color"
+          },
+          "color-red-600": {
+            "value": "#ee2243",
+            "type": "color"
+          },
+          "color-red-700": {
+            "value": "#dc143c",
+            "type": "color"
+          },
+          "color-red-800": {
+            "value": "#cf0534",
+            "type": "color"
+          },
+          "color-red-900": {
+            "value": "#c20027",
+            "type": "color"
+          }
+        },
+        "green": {
+          "color-green-50": {
+            "value": "#e7f6e6",
+            "type": "color"
+          },
+          "color-green-100": {
+            "value": "#c6e7c1",
+            "type": "color"
+          },
+          "color-green-200": {
+            "value": "#a0d899",
+            "type": "color"
+          },
+          "color-green-300": {
+            "value": "#78c96f",
+            "type": "color"
+          },
+          "color-green-400": {
+            "value": "#58be4e",
+            "type": "color"
+          },
+          "color-green-500": {
+            "value": "#35b228",
+            "type": "color"
+          },
+          "color-green-600": {
+            "value": "#2aa31f",
+            "type": "color"
+          },
+          "color-green-700": {
+            "value": "#199111",
+            "type": "color"
+          },
+          "color-green-800": {
+            "value": "#008000",
+            "type": "color"
+          },
+          "color-green-900": {
+            "value": "#006100",
+            "type": "color"
+          }
+        },
+        "blue": {
+          "color-blue-50": {
+            "value": "#e3f3ff",
+            "type": "color"
+          },
+          "color-blue-100": {
+            "value": "#bce1ff",
+            "type": "color"
+          },
+          "color-blue-200": {
+            "value": "#91cfff",
+            "type": "color"
+          },
+          "color-blue-300": {
+            "value": "#62bbff",
+            "type": "color"
+          },
+          "color-blue-400": {
+            "value": "#3dacff",
+            "type": "color"
+          },
+          "color-blue-500": {
+            "value": "#189dff",
+            "type": "color"
+          },
+          "color-blue-600": {
+            "value": "#1e8fff",
+            "type": "color"
+          },
+          "color-blue-700": {
+            "value": "#1f7ceb",
+            "type": "color"
+          },
+          "color-blue-800": {
+            "value": "#206ad9",
+            "type": "color"
+          },
+          "color-blue-900": {
+            "value": "#1f4ab9",
+            "type": "color"
+          }
+        },
+        "yellow": {
+          "color-yellow-50": {
+            "value": "#fff3de",
+            "type": "color"
+          },
+          "color-yellow-100": {
+            "value": "#ffe0ae",
+            "type": "color"
+          },
+          "color-yellow-200": {
+            "value": "#ffcb78",
+            "type": "color"
+          },
+          "color-yellow-300": {
+            "value": "#ffb640",
+            "type": "color"
+          },
+          "color-yellow-400": {
+            "value": "#ffa600",
+            "type": "color"
+          },
+          "color-yellow-500": {
+            "value": "#ff9600",
+            "type": "color"
+          },
+          "color-yellow-600": {
+            "value": "#fc8a00",
+            "type": "color"
+          },
+          "color-yellow-700": {
+            "value": "#f77900",
+            "type": "color"
+          },
+          "color-yellow-800": {
+            "value": "#f26800",
+            "type": "color"
+          },
+          "color-yellow-900": {
+            "value": "#e94b00",
+            "type": "color"
+          }
+        },
+        "purple": {
+          "color-purple-50": {
+            "value": "#f4e3f0",
+            "type": "color"
+          },
+          "color-purple-100": {
+            "value": "#e3badb",
+            "type": "color"
+          },
+          "color-purple-200": {
+            "value": "#d08cc4",
+            "type": "color"
+          },
+          "color-purple-300": {
+            "value": "#bc5dac",
+            "type": "color"
+          },
+          "color-purple-400": {
+            "value": "#ad399c",
+            "type": "color"
+          },
+          "color-purple-500": {
+            "value": "#9d0d8c",
+            "type": "color"
+          },
+          "color-purple-600": {
+            "value": "#910887",
+            "type": "color"
+          },
+          "color-purple-601": {
+            "value": "#9d0d8c",
+            "type": "color"
+          },
+          "color-purple-700": {
+            "value": "#800080",
+            "type": "color"
+          },
+          "color-purple-800": {
+            "value": "#710078",
+            "type": "color"
+          },
+          "color-purple-900": {
+            "value": "#55006b",
+            "type": "color"
+          }
+        }
+      },
+      "common-tokens": {
+        "document-color": {
+          "value": "#1c1c1c",
+          "type": "color"
+        },
+        "heading-color": {
+          "value": "#206ad9",
+          "type": "color"
+        },
+        "link-color": {
+          "value": "#206ad9",
+          "type": "color"
+        },
+        "link-visited-color": {
+          "value": "#800080",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "#1c1c1c",
+          "type": "color"
+        },
+        "icon-color-inversed": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "foreground-color-feedback-info": {
+          "value": "#206ad9",
+          "type": "color"
+        },
+        "background-color-feedback-info": {
+          "value": "#e3f3ff",
+          "type": "color"
+        },
+        "foreground-color-feedback-success": {
+          "value": "#008000",
+          "type": "color"
+        },
+        "background-color-feedback-success": {
+          "value": "#e7f6e6",
+          "type": "color"
+        },
+        "foreground-color-feedback-warning": {
+          "value": "#fc8a00",
+          "type": "color"
+        },
+        "backgroundcolor-feedback-warning": {
+          "value": "#fff3de",
+          "type": "color"
+        },
+        "foreground-color-feedback-error": {
+          "value": "#cf0534",
+          "type": "color"
+        },
+        "background-color-feedback-error": {
+          "value": "#ffebf0",
+          "type": "color"
+        }
+      },
+      "component-tokens": {
+        "form-input-background-color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "form-input-border-color": {
+          "value": "#646464",
+          "type": "color"
+        },
+        "form-input-border-disabled-color": {
+          "value": "#d1d1d1",
+          "type": "color"
+        },
+        "form-input-hover-border-color": {
+          "value": "#646464",
+          "type": "color"
+        },
+        "form-input-focus-border-color": {
+          "value": "#646464",
+          "type": "color"
+        },
+        "form-helper-text-color": {
+          "value": "#3f3f3f",
+          "type": "color"
+        },
+        "button-primary-action-background-color": {
+          "value": "#1c1c1c",
+          "type": "color"
+        },
+        "button-secondary-action-background-color": {
+          "value": "#646464",
+          "type": "color"
+        },
+        "button-disabled-background-color": {
+          "value": "#d1d1d1",
+          "type": "color"
+        },
+        "button-primary-action-hover-background-color": {
+          "value": "#1f4ab9",
+          "type": "color"
+        },
+        "button-primary-action-focus-background-color": {
+          "value": "#1f4ab9",
+          "type": "color"
+        },
+        "button-primary-action-active-background-color": {
+          "value": "#1f4ab9",
+          "type": "color"
+        },
+        "button-secondary-action-hover-background-color": {
+          "value": "#1f4ab9",
+          "type": "color"
+        },
+        "button-secondary-action-focus-background-color": {
+          "value": "#1f4ab9",
+          "type": "color"
+        },
+        "button-secondary-action-active-background-color": {
+          "value": "#1f4ab9",
+          "type": "color"
+        },
+        "button-primary-action-text-color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "button-secondary-action-text-color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "button-disabled-text-color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "tab-background-color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "tab-hover-background-color": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "tab-focus-background-color": {
+          "value": "#f5f5f5",
+          "type": "color"
+        },
+        "tab-active-background-color": {
+          "value": "#d1d1d1",
+          "type": "color"
+        },
+        "tab-disabled-background-color": {
+          "value": "#acacac",
+          "type": "color"
+        },
+        "tab-current-indicator-color": {
+          "value": "#206ad9",
+          "type": "color"
+        },
+        "breadcrumb-link-color": {
+          "value": "#206ad9",
+          "type": "color",
+          "description": "Color for breadcrumb link in default state"
+        },
+        "badge-background-color": {
+          "value": "#1c1c1c",
+          "type": "color",
+          "description": "Default background color for a badge"
+        },
+        "badge-color": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Default foreground color for a badge"
+        },
+        "pagination-page-link-background-color": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Default background color for a pagination page link"
+        },
+        "pagination-page-link-current-background-color": {
+          "value": "#1c1c1c",
+          "type": "color",
+          "description": "Background color for currently selected pagination page link"
+        }
+      }
+    },
+    "fontFamilies": {
+      "RijksoverheidSans": {
+        "value": "Arial",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      },
+      "": {
+        "value": "110",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "RijksoverheidSans-0": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "12",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "typography": {
+      "paragraph-text-sm": {
+        "paragraph-sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "lead-paragraph-sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        }
+      },
+      "paragraph-text-md": {
+        "paragraph-md": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "lead-paragraph-md": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        }
+      },
+      "paragraph-text-lg": {
+        "paragraph-lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "lead-paragraph-lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        }
+      },
+      "heading-text-sm": {
+        "heading-1-sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-2-sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-3-sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-4-sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-5-sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-6-sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        }
+      },
+      "heading-text-md": {
+        "heading-1-md": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-2-md": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-3-md": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-4-md": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-5-md": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-6-md": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        }
+      },
+      "heading-text-lg": {
+        "heading-1-lg": {
+          "value": {
+            "fontFamily": "$fontFamilies.RijksoverheidSans",
+            "fontWeight": "$fontWeights.RijksoverheidSans-0",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-2-lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-3-lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-4-lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-5-lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "heading-6-lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        }
+      },
+      "form-text": {
+        "form-label": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "form-optional-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "form-helper-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "form-placeholder": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "form-input-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "form-disabled-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "form-feedback-error-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        }
+      },
+      "component-text": {
+        "button-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "tab-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "breadcrumb-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "collapse-heading-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "notification-heading-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "notification-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "badge-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        },
+        "pagination-text": {
+          "value": {
+            "fontFamily": "{fontFamilies.RijksoverheidSans}",
+            "fontWeight": "{fontWeights.RijksoverheidSans-0}",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.0",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "fontSize-xl": {
+      "value": "48",
+      "type": "fontSizes"
+    }
+  }
+}
