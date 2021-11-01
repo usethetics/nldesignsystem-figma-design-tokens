@@ -1,178 +1,180 @@
 {
   "Tokens in Figma Demo": {
-    "brand-tokens": {
-      "document-font-family": {
-        "value": "Arial",
-        "description": "Standaard broodtekst",
-        "type": "fontFamilies"
-      },
-      "font-weight-regular": {
-        "value": "Regular",
-        "description": "Regulier lettergewicht",
-        "type": "fontWeights"
-      },
-      "line-height-tight": {
-        "value": "120%",
-        "description": "Minimale leading",
-        "type": "lineHeights"
-      },
-      "letter-spacing-default": {
-        "value": "0",
-        "description": "Standaard letter afstand",
-        "type": "letterSpacing"
-      },
-      "font-size-md": {
-        "value": "16",
-        "description": "Medium lettergrootte",
-        "type": "fontSizes"
-      },
-      "paragraph-spacing-default": {
-        "value": "8",
-        "description": "Standaard alinea tussenruimte",
-        "type": "paragraphSpacing"
-      },
-      "Demo-Zwart": {
-        "value": "#111",
-        "description": "Demo zwart",
-        "type": "color"
-      },
-      "Demo-Wit": {
-        "value": "#fff",
-        "description": "Demo wit",
-        "type": "color"
-      },
-      "border-width-sm": {
-        "value": "1",
-        "description": "Border dun",
-        "type": "borderWidth"
-      },
-      "border-radius-sm": {
-        "value": "4",
-        "description": "Randradius klein",
-        "type": "borderRadius"
-      },
-      "size-inline-lg": {
-        "value": "24",
-        "description": "↔️Breedte groot formaat",
-        "type": "sizing"
-      },
-      "size-block-lg": {
-        "value": "24",
-        "description": "↕️Hoogte groot formaat",
-        "type": "sizing"
-      },
-      "space-inline-xs": {
-        "value": "8",
-        "type": "spacing"
-      },
-      "Demo-Blauw": {
-        "value": "#33f",
-        "description": "Demo Blauw",
-        "type": "color"
-      },
-      "Demo-Lichtgrijs": {
-        "value": "#999",
-        "description": "Demo lichtgrijs",
-        "type": "color"
-      },
-      "Demo-Donkerrood": {
-        "value": "#d00",
-        "description": "Demo donkerrood",
-        "type": "color"
-      }
-    },
-    "component-tokens": {
-      "form-label": {
-        "value": {
-          "fontFamily": "$brand-tokens.document-font-family",
-          "fontWeight": "$component-tokens.form-label-font-weight",
-          "lineHeight": "$component-tokens.line-height-tight",
-          "fontSize": "$component-tokens.form-label-font-size",
-          "letterSpacing": "$brand-tokens.letter-spacing-default",
-          "paragraphSpacing": "$brand-tokens.paragraph-spacing-default"
+    "demo-tokens-in-figma": {
+      "brand-tokens": {
+        "document-font-family": {
+          "value": "Arial",
+          "description": "Standaard broodtekst",
+          "type": "fontFamilies"
         },
-        "description": "Composiet token voor formulier label tekst",
-        "type": "typography"
+        "font-weight-regular": {
+          "value": "Regular",
+          "description": "Regulier lettergewicht",
+          "type": "fontWeights"
+        },
+        "line-height-tight": {
+          "value": "120%",
+          "description": "Minimale leading",
+          "type": "lineHeights"
+        },
+        "letter-spacing-default": {
+          "value": "0",
+          "description": "Standaard letter afstand",
+          "type": "letterSpacing"
+        },
+        "font-size-md": {
+          "value": "16",
+          "description": "Medium lettergrootte",
+          "type": "fontSizes"
+        },
+        "paragraph-spacing-default": {
+          "value": "8",
+          "description": "Standaard alinea tussenruimte",
+          "type": "paragraphSpacing"
+        },
+        "Demo-Zwart": {
+          "value": "#111",
+          "description": "Demo zwart",
+          "type": "color"
+        },
+        "Demo-Wit": {
+          "value": "#fff",
+          "description": "Demo wit",
+          "type": "color"
+        },
+        "border-width-sm": {
+          "value": "1",
+          "description": "Border dun",
+          "type": "borderWidth"
+        },
+        "border-radius-sm": {
+          "value": "4",
+          "description": "Randradius klein",
+          "type": "borderRadius"
+        },
+        "size-inline-lg": {
+          "value": "24",
+          "description": "↔️Breedte groot formaat",
+          "type": "sizing"
+        },
+        "size-block-lg": {
+          "value": "24",
+          "description": "↕️Hoogte groot formaat",
+          "type": "sizing"
+        },
+        "space-inline-xs": {
+          "value": "8",
+          "type": "spacing"
+        },
+        "Demo-Blauw": {
+          "value": "#33f",
+          "description": "Demo Blauw",
+          "type": "color"
+        },
+        "Demo-Lichtgrijs": {
+          "value": "#999",
+          "description": "Demo lichtgrijs",
+          "type": "color"
+        },
+        "Demo-Donkerrood": {
+          "value": "#d00",
+          "description": "Demo donkerrood",
+          "type": "color"
+        }
       },
-      "form-label-color": {
-        "value": "$brand-tokens.Demo-Zwart",
-        "description": "Tekstkleur van formulier label",
-        "type": "color"
-      },
-      "form-label-active-color": {
-        "value": "$brand-tokens.Demo-Blauw",
-        "description": "Tekstkleur van formulier label in hover staat",
-        "type": "color"
-      },
-      "form-label-invalid-color": {
-        "value": "$brand-tokens.Demo-Donkerrood",
-        "description": "Tekstkleur van formulier label in foutieve staat",
-        "type": "color"
-      },
-      "form-label-disabled-color": {
-        "value": "$brand-tokens.Demo-Lichtgrijs",
-        "description": "Tekstkleur van formulier label in inactieve staat",
-        "type": "color"
-      },
-      "form-label-font-weight": {
-        "value": "$brand-tokens.font-weight-regular",
-        "description": "Lettergewicht van formulier-label",
-        "type": "fontWeights"
-      },
-      "form-label-font-size": {
-        "value": "$brand-tokens.font-size-md",
-        "description": "Lettergrootte van formulier-label",
-        "type": "fontSizes"
-      },
-      "form-label-line-height": {
-        "value": "$brand-tokens.line-height-tight",
-        "description": "Leading van formulier-label",
-        "type": "lineHeights"
-      },
-      "custom-checkbox-size": {
-        "value": "$brand-tokens.size-block-lg",
-        "description": "Hoogte en breedte van een checkbox",
-        "type": "sizing"
-      },
-      "custom-checkbox-color": {
-        "value": "$brand-tokens.Demo-Wit",
-        "description": "Kleur van checkmark icoon",
-        "type": "color"
-      },
-      "custom-checkbox-border-width": {
-        "value": "$brand-tokens.border-width-sm",
-        "description": "Border-breedte van checkbox",
-        "type": "borderWidth"
-      },
-      "custom-checkbox-background-color": {
-        "value": "$brand-tokens.Demo-Wit",
-        "description": "Achtergrondkleur van checkbox",
-        "type": "color"
-      },
-      "custom-checkbox-checked-background-color": {
-        "value": "$brand-tokens.Demo-Zwart",
-        "description": "Achtergrondkleur van geselecteerde checkbox",
-        "type": "color"
-      },
-      "custom-checkbox-active-background-color": {
-        "value": "$brand-tokens.Demo-Blauw",
-        "description": "Achtergrondkleur van checkbox in actieve staat",
-        "type": "color"
-      },
-      "custom-checkbox-invalid-background-color": {
-        "value": "$brand-tokens.Demo-Donkerrood",
-        "description": "Achtergrondkleur van checkbox in foutieve staat",
-        "type": "color"
-      },
-      "custom-checkbox-disabled-background-color": {
-        "value": "$brand-tokens.Demo-Lichtgrijs",
-        "description": "Achtergrondkleur van checkbox in hover staat",
-        "type": "color"
-      },
-      "custom-checkbox-border-radius": {
-        "value": "$brand-tokens.border-radius-sm",
-        "description": "Border radius van checkbox",
-        "type": "borderRadius"
+      "component-tokens": {
+        "form-label": {
+          "value": {
+            "fontFamily": "$brand-tokens.document-font-family",
+            "fontWeight": "$component-tokens.form-label-font-weight",
+            "lineHeight": "$component-tokens.line-height-tight",
+            "fontSize": "$component-tokens.form-label-font-size",
+            "letterSpacing": "$brand-tokens.letter-spacing-default",
+            "paragraphSpacing": "$brand-tokens.paragraph-spacing-default"
+          },
+          "description": "Composiet token voor formulier label tekst",
+          "type": "typography"
+        },
+        "form-label-color": {
+          "value": "$brand-tokens.Demo-Zwart",
+          "description": "Tekstkleur van formulier label",
+          "type": "color"
+        },
+        "form-label-active-color": {
+          "value": "$brand-tokens.Demo-Blauw",
+          "description": "Tekstkleur van formulier label in hover staat",
+          "type": "color"
+        },
+        "form-label-invalid-color": {
+          "value": "$brand-tokens.Demo-Donkerrood",
+          "description": "Tekstkleur van formulier label in foutieve staat",
+          "type": "color"
+        },
+        "form-label-disabled-color": {
+          "value": "$brand-tokens.Demo-Lichtgrijs",
+          "description": "Tekstkleur van formulier label in inactieve staat",
+          "type": "color"
+        },
+        "form-label-font-weight": {
+          "value": "$brand-tokens.font-weight-regular",
+          "description": "Lettergewicht van formulier-label",
+          "type": "fontWeights"
+        },
+        "form-label-font-size": {
+          "value": "$brand-tokens.font-size-md",
+          "description": "Lettergrootte van formulier-label",
+          "type": "fontSizes"
+        },
+        "form-label-line-height": {
+          "value": "$brand-tokens.line-height-tight",
+          "description": "Leading van formulier-label",
+          "type": "lineHeights"
+        },
+        "custom-checkbox-size": {
+          "value": "$brand-tokens.size-block-lg",
+          "description": "Hoogte en breedte van een checkbox",
+          "type": "sizing"
+        },
+        "custom-checkbox-color": {
+          "value": "$brand-tokens.Demo-Wit",
+          "description": "Kleur van checkmark icoon",
+          "type": "color"
+        },
+        "custom-checkbox-border-width": {
+          "value": "$brand-tokens.border-width-sm",
+          "description": "Border-breedte van checkbox",
+          "type": "borderWidth"
+        },
+        "custom-checkbox-background-color": {
+          "value": "$brand-tokens.Demo-Wit",
+          "description": "Achtergrondkleur van checkbox",
+          "type": "color"
+        },
+        "custom-checkbox-checked-background-color": {
+          "value": "$brand-tokens.Demo-Zwart",
+          "description": "Achtergrondkleur van geselecteerde checkbox",
+          "type": "color"
+        },
+        "custom-checkbox-active-background-color": {
+          "value": "$brand-tokens.Demo-Blauw",
+          "description": "Achtergrondkleur van checkbox in actieve staat",
+          "type": "color"
+        },
+        "custom-checkbox-invalid-background-color": {
+          "value": "$brand-tokens.Demo-Donkerrood",
+          "description": "Achtergrondkleur van checkbox in foutieve staat",
+          "type": "color"
+        },
+        "custom-checkbox-disabled-background-color": {
+          "value": "$brand-tokens.Demo-Lichtgrijs",
+          "description": "Achtergrondkleur van checkbox in hover staat",
+          "type": "color"
+        },
+        "custom-checkbox-border-radius": {
+          "value": "$brand-tokens.border-radius-sm",
+          "description": "Border radius van checkbox",
+          "type": "borderRadius"
+        }
       }
     }
   }
