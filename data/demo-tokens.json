@@ -53,12 +53,12 @@
       },
       "size-inline-lg": {
         "value": "24",
-        "description": "↔️Breedte groot formaat",
+        "description": "Breedte groot formaat",
         "type": "sizing"
       },
       "size-block-lg": {
         "value": "24",
-        "description": "↕️Hoogte groot formaat",
+        "description": "Hoogte groot formaat",
         "type": "sizing"
       },
       "space-inline-xs": {
